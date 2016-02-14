@@ -3,9 +3,8 @@ GENERAL
 ***********************************/
 
 body {
-  /*font-family: '0pen Sans', sans-serif;*/
   font-family: 'Open Sans', Helvetica,Arial,sans-serif;
-  background-color: #fff;
+  background-color: white;
 }
 
 img {
@@ -17,26 +16,20 @@ a {
   color: white;
 }
 
-p {
-  color: #86A09D; /#C8E7EA;/
-  background-color: #86A09D;
+/* #86A09D   #C8E7EA        #1becee0       #1e6203*/
+.home-container  {
+    /*color: #65696c;    /*#7C8083 */
+  background-color: #E9EDEE;
   font-size: 16px;
 }
 
-/*#menu ul {
-  display: block;
-  float: left;
-  margin-left: 3px;
-}*/
 select {
   width: 55%;
   margin: 3px 0 11px 2%;
   float: left;
 
 }
-/*nav ul li {
-  display: none;
-}*/
+
 /**********************************
 NAVIGATION
 ***********************************/
@@ -72,6 +65,8 @@ HEADING
 ***********************************/
 
 header {
+  /*position: fixed;*/
+  top: 0;
   float: left;
   margin: 0 0 30px 0;
   padding: 5px 0 0 0;
@@ -94,15 +89,17 @@ h2 {
   font-weight: normal;
 }
 
-h1, h2 {
+h4 {
+  font-size: 1.2em;
+}
+
+h1, h2, h4 {
   color: white;
 }
 
 h3 {
   color: #599a68;
 }
-
-
 
 /**********************************
 FOOTER
@@ -118,8 +115,8 @@ footer {
 }
 
 .stickyfooterwrap {
-  min-height: calc(100vh - 57px);
-  /*min-height: calc(100vh - 108px);*/
+  /*min-height: calc(100vh - 57px);*/
+  min-height: calc(100vh - 108px);
 }
 
 .social-icon {

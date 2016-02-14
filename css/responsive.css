@@ -1,21 +1,7 @@
-/*@media screen and (min-width: 480px) {
-
-   navigation controls in header
-
-  #menu ul {
-    display:none;
-  }
-nav {
-  display:inline-block;
-}
-
-}
+/* On larger screens:
+    Hide the drop down menu
+    Show the navigation links
 */
-
-/**
-Modify CSS to hide links on small width and show button and select
-Also hides select and button on larger width and show's links
-**/
 
 @media (min-width: 510px)  {
   #menu select {
