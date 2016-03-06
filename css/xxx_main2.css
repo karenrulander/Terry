@@ -1,0 +1,130 @@
+/**********************************
+GENERAL
+***********************************/
+
+body {
+  font-family: 'Open Sans', Helvetica,Arial,sans-serif;
+  background-color: white;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/* #86A09D   #C8E7EA        #1becee0       #1e6203*/
+.home-container  {
+    /*color: #65696c;    /*#7C8083 */
+  background-color: #E9EDEE;
+  font-size: 16px;
+}
+
+select {
+  width: 55%;
+  margin: 3px 0 11px 2%;
+  float: left;
+
+}
+
+/**********************************
+NAVIGATION
+***********************************/
+
+nav {
+  text-align: center;
+  padding: 10px 0;
+  margin: 20px 0 0;
+}
+
+nav ul {
+  /*list-style: none;*/
+  margin: 0 10px;
+  padding: 0;
+}
+
+nav li {
+  display: none;
+}
+
+nav a {
+ font-weight: 800;
+ padding: 15px 10px;
+}
+
+/* selected nav link */
+nav a.selected, nav a:hover{
+  color: #beece0;
+}
+
+/**********************************
+HEADING
+***********************************/
+
+header {
+  /*position: fixed;*/
+  top: 0;
+  height: 200px;
+  margin: 0 0 30px 0;
+  padding: 5px 0 0 0;
+  width: 100%;
+  background: #325A25;/*6ab47b */
+  border-color: #599a68;
+}
+
+h1 {
+  font-family: 'Open Sans', Helvetica,Arial,sans-serif;
+  margin: 15px 0;
+  font-size: 1.75em;
+  font-weight: normal;
+  line-height: 0.8em;
+}
+
+h2 {
+  font-size: 1.1 em;
+  margin: -5px 0 0;
+  font-weight: normal;
+}
+
+h4 {
+  font-size: 1.2em;
+}
+
+h1, h2, h4 {
+  color: white;
+}
+
+h3 {
+  color: #599a68;
+}
+
+.home-cont {
+
+
+}
+/**********************************
+FOOTER
+***********************************/
+
+footer {
+  background-color: #beece0;
+  min-height: 50px;
+  font-size: 0.75em;
+  text-align: left;
+  clear: both;
+  /*padding-top: 50px;*/
+}
+
+.stickyfooterwrap {
+  /*min-height: calc(100vh - 57px);*/
+/*  min-height: calc(100vh - 108px);*/
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+}
