@@ -92,6 +92,24 @@ header {
   width: 100px;
 }
 
+h3 {
+  color: green;
+}
+
+h4 {
+  color: white;
+}
+
+/**********************************
+     Team Roster
+***********************************/
+.rosterList {
+  margin: 20px 20px;
+  font-size: 20px;
+  color: green;
+}
+
+
 
 /**********************************
      Media Queries
@@ -123,11 +141,6 @@ Home Page .main-div SETUP  (Flexbox)
     flex: 1.3;
   }
 }
-
-
-
-
-
 
 
 
