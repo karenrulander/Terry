@@ -98,7 +98,7 @@ h4 {
 /**********************************
 PAGE: Photos / Videos
 ***********************************/
-img {
+/*img {
   max-width: 100%;
 }
 
@@ -126,18 +126,18 @@ img {
   padding: 5%;
   font-size: 0.75em;
   color: #bdc3c7;
-}
+}*/
 
 
 
 /**********************************
      Team Roster
 ***********************************/
-.rosterList {
+/*.rosterList {
   margin: 20px 20px;
   font-size: 20px;
   color: green;
-}
+}*/
 
 /**********************************
      Calendar Events
@@ -145,13 +145,13 @@ img {
 ***********************************/
 
 
-label, input {
+/*label, input {
   color: black;
 }
 
-.label {color: #000;}
+.label {color: #000;}*/
 
-.cal-list {
+/*.cal-list {
   background: #fff;
   width: 80%;
   min-width: 500px;
@@ -192,9 +192,9 @@ label, input {
     color: #a7b9c4;
     text-decoration: line-through; }
   .cal-list .add {
-    padding: 25px 0 27px 25px; }
+    padding: 25px 0 27px 25px; }*/
 
-input[type="checkbox"] {
+/*input[type="checkbox"] {
     display:none;
 }
 input[type="checkbox"] + span {
@@ -208,7 +208,7 @@ input[type="checkbox"] + span {
 }
 input[type="checkbox"]:checked + span {
     background:url(checkbox-filled.svg) left top no-repeat;
-}
+}*/
 
 /**********************************
      Media Queries
