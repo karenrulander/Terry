@@ -6,7 +6,6 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-
 }
 
 .main-footer {
@@ -81,9 +80,8 @@ header {
   margin-left: 500px;
   margin-bottom: 50px;
   /*background-color: blue;*/
-  /*width: 20px;*/
-
 }
+
 .profile-pic {
   height: 100px;
   width: 100px;
@@ -101,7 +99,6 @@ h4 {
 PAGE: Photos / Videos
 ***********************************/
 img {
-
   max-width: 100%;
 }
 
@@ -122,7 +119,6 @@ img {
   margin: 2.5%;
   background-color: #f5f5f5;
   color: #bdc3c7;
-
 }
 
 #gallery li a p {
@@ -130,7 +126,6 @@ img {
   padding: 5%;
   font-size: 0.75em;
   color: #bdc3c7;
-
 }
 
 
@@ -144,7 +139,76 @@ img {
   color: green;
 }
 
+/**********************************
+     Calendar Tasks
+     (Angular code)
+***********************************/
 
+
+label, input {
+  color: black;
+}
+
+.label {color: #000;}
+
+.cal-list {
+  background: #fff;
+  width: 80%;
+  min-width: 500px;
+  margin: 80px auto 0;
+  border-top: 40px solid #5a6772;
+  text-align: left; }
+  .cal-list .cal-item {
+    border-bottom: 2px solid #edeff0;
+    padding: 17px 0 18px 17px; }
+    .cal-list .cal-item label {
+      padding-left: 5px;
+      cursor: pointer; }
+    .cal-list .cal-item .editing-label {
+      margin-left: 5px;
+      font-family: "Varela Round";
+      border-radius: 2px;
+      border: 2px solid #a7b9c4;
+      font-size: 16px;
+      padding: 15px 0 15px 10px;
+      width: 60%; }
+    .cal-list .cal-item .actions {
+      float: right;
+      margin-right: 20px; }
+      .cal-list .cal-item .actions .delete {
+        color: #ed5a5a;
+        margin-left: 10px; }
+        .cal-list .cal-item .actions .delete:hover {
+          color: #f28888; }
+    .cal-list .cal-item .editing-item .actions {
+      margin-top: 17px; }
+  .cal-list .edited label:after {
+    content: " edited";
+    text-transform: uppercase;
+    color: #a7b9c4;
+    font-size: 14px;
+    padding-left: 5px; }
+  .cal-list .completed label {
+    color: #a7b9c4;
+    text-decoration: line-through; }
+  .cal-list .add {
+    padding: 25px 0 27px 25px; }
+
+input[type="checkbox"] {
+    display:none;
+}
+input[type="checkbox"] + span {
+    display:inline-block;
+    width:19px;
+    height:19px;
+    margin:-1px 4px 0 0;
+    vertical-align:middle;
+    background:url(checkbox-empty.svg) left top no-repeat;
+    cursor:pointer;
+}
+input[type="checkbox"]:checked + span {
+    background:url(checkbox-filled.svg) left top no-repeat;
+}
 
 /**********************************
      Media Queries

@@ -25,7 +25,8 @@ angular.module('todoListApp')
  			};
 
  		});
- 		dataService.saveTodos(filteredTodos);
+
+    dataService.saveTodos(filteredTodos);
 
 
  	};
