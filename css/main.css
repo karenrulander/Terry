@@ -26,7 +26,6 @@ h2 {
   font-weight: normal;
 }
 
-
 .main-header,
 .main-nav {
   display: flex;
@@ -129,7 +128,6 @@ img {
 }
 
 
-
 /**********************************
      Team Roster
 ***********************************/
@@ -209,6 +207,13 @@ input[type="checkbox"] + span {
 input[type="checkbox"]:checked + span {
     background:url(checkbox-filled.svg) left top no-repeat;
 }
+
+
+
+
+
+
+
 
 /**********************************
      Media Queries

@@ -95,6 +95,24 @@ h4 {
   color: white;
 }
 
+
+
+
+
+
+/**********************************
+     Locations
+     (google maps API)
+***********************************/
+
+.map-ui {
+  margin-top: 200px;
+  /*text-decoration: none!important;*/
+}
+.ui-input-text {
+  text-decoration: none;
+}
+
 /**********************************
 PAGE: Photos / Videos
 ***********************************/
@@ -129,15 +147,6 @@ PAGE: Photos / Videos
 }*/
 
 
-
-/**********************************
-     Team Roster
-***********************************/
-/*.rosterList {
-  margin: 20px 20px;
-  font-size: 20px;
-  color: green;
-}*/
 
 /**********************************
      Calendar Events
