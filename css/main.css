@@ -37,6 +37,7 @@ h2 {
 }
 
 .main-header {
+  /*position: fixed;*/
   justify-content: space-between;
 }
 
@@ -208,13 +209,6 @@ input[type="checkbox"]:checked + span {
     background:url(checkbox-filled.svg) left top no-repeat;
 }
 
-
-
-
-
-
-
-
 /**********************************
      Media Queries
 Home Page .main-div SETUP  (Flexbox)
@@ -235,7 +229,6 @@ Home Page .main-div SETUP  (Flexbox)
 
   .main-header {
     justify-content: space-between;
-
   }
 }
 
